@@ -1,18 +1,18 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+<template class="bg-green-400">
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <LogIn />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent } from "vue";
+import LogIn from "./components/Login/login.vue";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-})
+    LogIn,
+  },
+});
 </script>
 
 <style>
